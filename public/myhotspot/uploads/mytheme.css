@@ -1,0 +1,153 @@
+/*	
+	Replace standard blue with electric purple	
+	to match Backpack's 2020 front-end redesign.
+*/
+
+.btn-primary, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff;
+    background-color: #26a69a;
+    border-color: #26a69a;
+}
+
+.btn-primary:hover, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	background-color: #00897b;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.btn-outline-primary:not(:disabled):not(.disabled):active, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:not(:disabled):not(.disabled).active, 
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:not(:disabled):not(.disabled):active, 
+.dataTables_wrapper .dataTables_paginate .show>.dropdown-toggle.paginate_button.current, 
+.show>.btn-primary.dropdown-toggle {
+	background-color: #009688;
+	border-color: #009688;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    background-color: #009688;
+}
+
+.text-primary {
+    color: #26a69a!important;
+}
+
+h1 {
+    color: #26a69a!important;
+}
+
+.btn-link {
+    color: #26a69a;
+}
+
+.btn-outline-primary {
+    color: #26a69a;
+    border-color: #26a69a;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #26a69a;
+    border-color: #26a69a;
+}
+
+.btn:hover, 
+.dataTables_wrapper 
+.dataTables_paginate 
+.paginate_button:hover {
+    color: #00a3ef;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #26a69a;
+    border-color: #26a69a;
+}
+
+.page-link:hover { color: #26a69a; }
+
+a { color: #26a69a; }
+a:hover { color: #66bb6a; }
+
+.form-control{
+    color:#26a69a;
+}
+
+.form-control:focus{
+    border-color: #26a69a;
+	box-shadow:0 0 0 2px #95e4dc
+}
+
+.table-hover tbody tr:hover,
+#crudTable tbody tr:hover {
+	background-color: rgba(239, 208, 105, 0.1);
+}
+
+.sidebar.sidebar-pills .nav-link.active .nav-icon, 
+.sidebar.sidebar-pills .nav-link:hover .nav-icon,
+.sidebar.sidebar-pills .nav-link.active, 
+.sidebar.sidebar-pills .nav-link:hover,
+.sidebar-pills .nav-link:hover .nav-icon {
+    color: #26a69a!important;
+
+}
+
+.sidebar.bg-white .nav-link.active,
+.sidebar.bg-white .nav-link:hover {
+  color: white!important;
+}
+
+.sidebar.bg-white .nav-link .nav-dropdown-toggle.active,
+.sidebar.bg-white .nav-link .nav-dropdown-toggle:hover {
+  color: white!important;
+}
+
+.sidebar.bg-white a:not(:hover),
+.sidebar.bg-white a:not(:active),
+.sidebar.bg-white a:not(:focus),
+.sidebar.bg-white a:not(.open),
+.sidebar.bg-white a:not(.active),
+.sidebar.bg-white li {
+  color: #495057!important;
+}
+
+.sidebar.bg-white .nav-dropdown.open {
+  background: #fbfbfb;
+  color: #495057!important;
+}
+
+.sidebar.bg-white .nav-link.active {
+    background: #f6f6f6;
+    color: #467fd0!important;
+}
+
+.sidebar.bg-white .nav-link.active .nav-icon,
+.sidebar.bg-white .nav-link.active:hover .nav-icon {
+    color: #467fd0!important;
+}
+
+.card.bg-primary {
+    border-color: #26a69a;
+}
+
+.bg-primary {
+    background-color: #26a69a!important;
+}
+
+.daterangepicker .ranges li.active,
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #26a69a!important;
+}
+
+.pace .pace-progress {
+	background: #26a69a;
+}
+
+body {
+	/*border-top: 3px solid #26a69a;*/
+}
+

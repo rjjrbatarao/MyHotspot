@@ -1,0 +1,136 @@
+
+.modal-device-info {
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.progress-bar {
+    -webkit-transition: width 1.2s ease;
+    transition: width 1.2s ease;
+}
+
+.progress-custom{
+    height: 27px;
+}
+
+.carousel-container{
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-item{
+    height: 300px;
+
+} 
+.carousel-item img{
+    height: 300px;
+
+}
+
+@media only screen and (max-width: 600px){
+    .carousel-container{
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;       
+    }
+    .carousel-item{
+        height: 220px;
+    } 
+    .carousel-item img{       
+        height: 220px;
+    }
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+/*
+.tab-content{
+    background-color: rgba(0,0,0,0);
+    border: none;
+} */
+
+.card{
+height: 700px;
+margin-top: 40px;
+margin-bottom: auto;
+width: 500px;
+background-color: rgba(0,0,0,0);
+border: none;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.container{
+    margin: auto;
+    overflow: auto; 
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FFC312;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100%;
+margin-bottom: 1em;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+div a{
+    color: #FFC312 !important;
+}
+
+ .nav-item:active {
+    border-bottom: none !important;
+    background-color: none !important;   
+}
