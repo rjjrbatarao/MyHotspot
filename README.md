@@ -1,0 +1,2 @@
+# MyHotspot
+Hotspot Admin Panel
